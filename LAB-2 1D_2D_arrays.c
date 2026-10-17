@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() {
-    //task1
+void task1() {
     int a[5];
     for (int i = 0; i < sizeof(a)/sizeof(a[0]); i++) {
         scanf("%d", &a[i]);
@@ -20,8 +19,9 @@ int main() {
     }
     printf("%d\n", sum);
     printf("%d\n", max);
+}
 
-    //task2
+void task2() {
     int matrix[3][3];
 
     for (int i = 0; i < 3; i++) {
@@ -46,4 +46,10 @@ int main() {
         printf("%d\n", row_sum);
         row_sum = 0;
     }
+}
+
+int main() {
+    task1();
+    task2();
+    return 0;
 }

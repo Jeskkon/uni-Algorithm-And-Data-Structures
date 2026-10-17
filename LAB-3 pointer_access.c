@@ -4,7 +4,6 @@
 #define LENGTH 20
 
 int main() {
-
     char names[PEOPLE][LENGTH];
     char (*p)[LENGTH] = names;
 
@@ -19,5 +18,4 @@ int main() {
         printf("\nName №%d: %s",i+1,*(p+i));
     }
     return 0;
-
 }
