@@ -4,8 +4,10 @@ project(uni_Algorithm_And_Data_Structures C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(hello_world "hello_world.c")
-add_executable(lab1 "LAB-1 IO.c")
-add_executable(lab2 "LAB-2 1D_2D_arrays.c")
-add_executable(lab3 "LAB-3 pointer_access.c")
+add_executable(lab1 "labs/LAB-1 IO.c")
+add_executable(lab2 "labs/LAB-2 1D_2D_arrays.c")
+add_executable(lab3 "labs/LAB-3 pointer_access.c")
+
+add_executable(assignment1 "assignments/Assignment-1.c")
 
 
