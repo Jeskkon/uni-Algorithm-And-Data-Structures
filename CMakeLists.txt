@@ -10,4 +10,7 @@ add_executable(lab3 "labs/LAB-3 pointer_access.c")
 
 add_executable(assignment1 "assignments/Assignment-1.c")
 
+add_executable(queue "other/queue.c")
+add_executable(stack "other/stack.c")
+
 
