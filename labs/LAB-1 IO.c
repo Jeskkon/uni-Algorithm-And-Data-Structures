@@ -21,13 +21,13 @@ void task2() {
 	printf("Enter your name and age: ");
 	scanf("%s %d", &name, &age);
 
-	printf("Hello %s, you are %d years old", name, age);
+	printf("Hello %19s, you are %d years old", name, age);
 }
 
 void task3() {
 	int a,b, sum;
 
-	printf("Enter Two Numbers: ");
+	printf("\nEnter Two Numbers: ");
 	scanf("%d %d", &a, &b );
 
 	sum = a+b;

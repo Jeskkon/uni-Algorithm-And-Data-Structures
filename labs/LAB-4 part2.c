@@ -15,6 +15,7 @@ int main() {
     struct Student *Students = (struct Student *) malloc(size*sizeof(struct Student));
     if (Students == NULL) {
         printf("\nMemory allocation failed");
+        return 0;
     }
     for (int i=0;i<size;i++) {
         printf("\nEnter student %d info:", i+1);

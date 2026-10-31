@@ -9,7 +9,7 @@ struct Student {
 void inputStudent(struct Student student[], int size){
     for (int i = 0; i < size; i++) {
         printf("\nEnter student %d info: ", i+1);
-        scanf("%s %d %f", student[i].name, &student[i].age, &student[i].grade);
+        scanf("%19s %d %f", student[i].name, &student[i].age, &student[i].grade);
     }
 }
 
