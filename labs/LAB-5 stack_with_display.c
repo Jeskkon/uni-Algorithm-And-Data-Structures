@@ -8,7 +8,6 @@ int top = -1;
 int push(int item) {
     if (top == MAX - 1) {
         printf("stack overflow\n");
-        return 1;
     }
     else {
         stack[++top] = item;
@@ -17,7 +16,6 @@ int push(int item) {
 int pop() {
     if (top == -1) {
         printf("Stack underflow\n");
-        return 1;
     }
     else {
         return stack[top--];
@@ -42,6 +40,18 @@ int main() {
     printf("Popped item = %d\n", pop());
     push(40);
     push(50);
+    push(40);
+    push(50); push(40);
+    push(50);
+    push(40);
+    push(50);
+    push(40);
+    push(50);
+    push(40);
+    push(50);
+    push(40);
+    push(50);
+
     display();
     return 0;
 }
