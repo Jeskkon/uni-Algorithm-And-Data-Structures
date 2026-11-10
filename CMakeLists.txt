@@ -10,10 +10,15 @@ add_executable(lab2 "labs/LAB-2 1D_2D_arrays.c")
 add_executable(lab3 "labs/LAB-3 pointer_access.c")
 add_executable(lab4-1 "labs/LAB-4 part1.c")
 add_executable(lab4-2 "labs/LAB-4 part2.c")
+add_executable(lab5-1 "labs/LAB-5 stack.c")
+add_executable(lab5-2 "labs/LAB-5 stack_with_display.c")
+
+
 #assignments
 add_executable(assignment1-type1 "assignments/assignment1/type1.c")
 add_executable(assignment1-type2 "assignments/assignment1/type2.c")
 add_executable(assignment1-type3 "assignments/assignment1/type3.c")
+add_executable(assignment2-type1 "assignments/assignment2/type1.c")
 
 add_executable(queue "other/queue.c")
 add_executable(stack "other/stack.c")
